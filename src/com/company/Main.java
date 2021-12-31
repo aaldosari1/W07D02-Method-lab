@@ -20,9 +20,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             for (int j = i+1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
-                    //System.out.println("index "+i+" and index "+j);
-                    for (int k = j; k < arr.length; k++) {
-                        //System.out.println("index "+k);
+                    for (int k = j; k < arr.length; k++) { 
                        if (k<arr.length-1 )
                         arr[k] = arr[k + 1];
                         if (k==arr.length-1 )
